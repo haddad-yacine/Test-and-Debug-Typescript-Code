@@ -1,0 +1,17 @@
+{
+  "name": "ts-codes",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "nodemon --quiet index.js"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.2"
+  }
+}
